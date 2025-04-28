@@ -2,7 +2,9 @@ Python Install [Termux]
 
 
 • pkg install python
+
 • pkg install git
+
 • pip install --upgrade pip
 
 
@@ -33,3 +35,15 @@ Run (local test) [Termux]
 
 
 • python app.py
+
+
+
+
+
+one line command [termux] 
+
+pkg install python git
+git clone https://github.com/hacker567-prime/fake_instagram.git
+cd fake_instagram
+pip install -r requirements.txt
+python app.py
