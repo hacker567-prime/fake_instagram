@@ -19,7 +19,9 @@ Github Repo clone [Termux]
 Python Virtual Environment (optional but better) [Termux] 
 
 • pip install virtualenv
+
  virtualenv venv
+ 
  source venv/bin/activate
 
 
@@ -42,8 +44,10 @@ Run (local test) [Termux]
 
 one line command [termux] 
 
+						•••
+
 pkg install python git
-git clone https://github.com/hacker567-prime/fake_instagram.git
+git clone https://github.com/hacker567 prime/fake_instagram.git
 cd fake_instagram
 pip install -r requirements.txt
 python app.py
