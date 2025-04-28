@@ -45,8 +45,7 @@ Run (local test) [Termux]
 one line command [termux] 
 
 						•••
-
-pkg install python git
+      pkg install python git
 git clone https://github.com/hacker567 prime/fake_instagram.git
 cd fake_instagram
 pip install -r requirements.txt
